@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        backaccentground: "#FF8F9C",
+        blackish: "#1b1b1b",
+        accent: "#3498db", // Added accent color
+      },
+      container: {
+        center: true,
+        padding: "15px",
       },
     },
   },
