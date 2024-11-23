@@ -24,14 +24,14 @@ const Hero = () => {
     },
     {
       id: 1,
-      img: "/banner-2.jpg",
+      img: "/banner-22.jpg",
       title: "trending Accessories",
       mainTitle: "Modern Sunglasses",
       price: "$25",
     },
     {
       id: 2, // Changed duplicate ID to 2
-      img: "/banner-3.jpg",
+      img: "/banner-33.jpg",
       title: "Sale Offer",
       mainTitle: "Men Fashion Summer Sale",
       price: "$30",
