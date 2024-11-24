@@ -10,6 +10,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import NewProducts from "@/components/NewProducts";
+import MobNavBar from "@/components/MobNavBar";
+import Footer from "@/components/Footer";
 
 
 
@@ -44,7 +46,9 @@ export default function RootLayout({
         <NavBar/>
         <Hero/>
         <NewProducts/>
+        <MobNavBar/>
         {children}
+        <Footer/>
         
       </body>
     </html>
